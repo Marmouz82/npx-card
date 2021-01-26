@@ -12,18 +12,18 @@ const boxen = require("boxen");
 
 // Text + chalk definitions
 const data = {
-    name: chalk.white("             Gaëtan Massart"),
+    name: chalk.white("Gaëtan Massart"),
     handle: chalk.white("Marmouz82"),
     work: chalk.white("Junior Dev at BeCode.org"),
-    npm: chalk.gray("https://npmjs.com/") + chalk.red("~marmouz82"),
-    github: chalk.gray("https://github.com/") + chalk.green("marmouz82"),
-    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("gaëtan-massart"),
-    npx: chalk.red("npx") + " " + chalk.white("marmouz82"),
-    labelWork: chalk.white.bold("       Work:"),
-    labelNpm: chalk.white.bold("        npm:"),
-    labelGitHub: chalk.white.bold("     GitHub:"),
-    labelLinkedIn: chalk.white.bold("   LinkedIn:"),
-    labelCard: chalk.white.bold("       Card:"),
+    npm: chalk.black("https://npmjs.com/") + chalk.cyan("~marmouz82"),
+    github: chalk.black("https://github.com/") + chalk.green("marmouz82"),
+    linkedin: chalk.black("https://linkedin.com/in/") + chalk.yellow("gaëtan-massart"),
+    npx: chalk.cyan("npx") + " " + chalk.white("marmouz82"),
+    labelWork: chalk.white.bold("Work:"),
+    labelNpm: chalk.white.bold("npm:"),
+    labelGitHub: chalk.white.bold(" GitHub:"),
+    labelLinkedIn: chalk.white.bold("LinkedIn:"),
+    labelCard: chalk.white.bold("Card:"),
 };
 
 const NEWLINE = "\n";
@@ -47,6 +47,9 @@ console.log(
                 padding: 1,
                 margin: 1,
                 borderStyle: "round",
+                backgroundColor: "grey",
+                align: "center",
+                borderColor: "greenBright",
             },
         ),
     ),
