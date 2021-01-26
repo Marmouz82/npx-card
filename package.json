@@ -2,6 +2,9 @@
   "name": "@marmouz82/npx-card",
   "version": "1.0.0",
   "description": "",
+  "bin": {
+    "npx-card": "./index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
