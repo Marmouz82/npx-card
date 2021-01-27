@@ -2,7 +2,7 @@
 
 npm card Gaëtan Massart
 
-#2 Usage
+## Usage
 
 
 ```npx marmouz82```
