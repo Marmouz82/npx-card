@@ -5,4 +5,6 @@ npm card Gaëtan Massart
 ## Usage
 
 Via npx:
-```npx marmouz82```
+```
+npx marmouz82                                      
+```
