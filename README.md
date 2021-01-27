@@ -12,5 +12,5 @@ npx marmouz82
 
 Assuming you have the GitHub registry set up, you can use via npx:
 ```
-npx @marmouz82/card                                      
+npx @marmouz82/npx-card                                      
 ```
